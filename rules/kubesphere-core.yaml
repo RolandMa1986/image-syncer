@@ -1,0 +1,32 @@
+
+# localVolume：
+"kubesphere/node-disk-manager": "registry.cn-beijing.aliyuncs.com/kubesphereio/node-disk-manager"
+"kubesphere/node-disk-operator": "registry.cn-beijing.aliyuncs.com/kubesphereio/node-disk-operator"
+"kubesphere/provisioner-localpv": "registry.cn-beijing.aliyuncs.com/kubesphereio/provisioner-localpv"
+"kubesphere/linux-utils": "registry.cn-beijing.aliyuncs.com/kubesphereio/linux-utils"
+
+# kubesphere：
+"kubesphere/ks-apiserver": "registry.cn-beijing.aliyuncs.com/kubesphereio/ks-apiserver"
+"kubesphere/ks-console": "registry.cn-beijing.aliyuncs.com/kubesphereio/ks-console"
+"kubesphere/ks-controller-manager": "registry.cn-beijing.aliyuncs.com/kubesphereio/ks-controller-manager"
+"kubesphere/ks-installer": "registry.cn-beijing.aliyuncs.com/kubesphereio/ks-installer"
+"kubesphere/kubectl": "registry.cn-beijing.aliyuncs.com/kubesphereio/kubectl"
+"kubesphere/ks-upgrade": "registry.cn-beijing.aliyuncs.com/kubesphereio/ks-upgrade"
+"kubesphere/ks-devops": "registry.cn-beijing.aliyuncs.com/kubesphereio/ks-devops"
+"kubesphere/nginx-ingress-controller": "registry.cn-beijing.aliyuncs.com/kubesphereio/nginx-ingress-controller"
+
+# redis:5.0.5-alpine
+# alpine:3.10.4
+# haproxy:2.0.4
+# mysql:8.0.11
+# nginx:1.14-alpine
+# minio/minio:RELEASE.2019-08-07T01-59-21Z
+# minio/mc:RELEASE.2019-08-07T23-14-43Z
+# mirrorgooglecontainers/defaultbackend-amd64:1.4
+# osixia/openldap:1.3.0
+# csiplugin/snapshot-controller:v2.0.1
+
+
+
+
+

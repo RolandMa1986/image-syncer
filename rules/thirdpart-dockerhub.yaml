@@ -1,0 +1,50 @@
+# Core
+"redis:5.0.5-alpine": "kubesphere/redis:5.0.5-alpine"
+"alpine:3.10.4": "kubesphere/alpine:3.10.4"
+"haproxy:2.0.4": "kubesphere/haproxy:2.0.4"
+"mysql:8.0.11": "kubesphere/mysql:8.0.11"
+"nginx:1.14-alpine": "kubesphere/nginx:1.14-alpine"
+"minio/minio:RELEASE.2019-08-07T01-59-21Z": "kubesphere/minio:RELEASE.2019-08-07T01-59-21Z"
+"minio/mc:RELEASE.2019-08-07T23-14-43Z": "kubesphere/mc:RELEASE.2019-08-07T23-14-43Z"
+"mirrorgooglecontainers/defaultbackend-amd64:1.4": "kubesphere/defaultbackend-amd64:1.4"
+"osixia/openldap:1.3.0": "kubesphere/openldap:1.3.0"
+"csiplugin/snapshot-controller:v2.0.1": "kubesphere/snapshot-controller:v2.0.1"
+
+# Service Mesh
+
+"istio/citadel:1.4.8": "kubesphere/citadel:1.4.8"
+"istio/galley:1.4.8": "kubesphere/galley:1.4.8"
+"istio/kubectl:1.4.8": "kubesphere/kubectl:1.4.8"
+"istio/mixer:1.4.8": "kubesphere/mixer:1.4.8"
+"istio/pilot:1.4.8": "kubesphere/pilot:1.4.8"
+"istio/proxyv2:1.4.8": "kubesphere/proxyv2:1.4.8"
+"istio/sidecar_injector:1.4.8": "kubesphere/sidecar_injector:1.4.8"
+"jaegertracing/jaeger-agent:1.17": "kubesphere/jaeger-agent:1.17"
+"jaegertracing/jaeger-collector:1.17": "kubesphere/jaeger-collector:1.17"
+"jaegertracing/jaeger-operator:1.17.1": "kubesphere/jaeger-operator:1.17.1"
+"jaegertracing/jaeger-query:1.17": "kubesphere/jaeger-query:1.17"
+"jaegertracing/jaeger-es-index-cleaner:1.17.1": "aegertracing/jaeger-es-index-cleaner:1.17.1"
+
+# DevOps
+"jenkins/jenkins:2.176.2": "kubesphere/jenkins:2.176.2"
+"jenkins/jnlp-slave:3.27-1": "kubesphere/jnlp-slave:3.27-1"
+
+# # Monitoring
+# prom/alertmanager:v0.21.0": "kubesphere/alertmanager:v0.21.0"
+# prom/prometheus:v2.20.1": "kubesphere/prometheus:v2.20.1"
+# kubesphere/node-exporter:ks-v0.18.1": "kubesphere/node-exporter:ks-v0.18.1"
+# jimmidyson/configmap-reload:v0.3.0": "kubesphere/configmap-reload:v0.3.0"
+
+# k8s：
+# kubesphere/kube-apiserver:v1.17.9": "
+# kubesphere/kube-scheduler:v1.17.9": "
+# kubesphere/kube-proxy:v1.17.9": "
+# kubesphere/kube-controller-manager:v1.17.9": "
+# kubesphere/pause:3.1": "
+# kubesphere/etcd:v3.3.12": "
+# calico/kube-controllers:v3.15.1": "
+# calico/node:v3.15.1": "
+# calico/cni:v3.15.1": "
+# calico/pod2daemon-flexvol:v3.15.1": "
+# coredns/coredns:1.6.9": "
+# kubesphere/k8s-dns-node-cache:1.15.12": "

@@ -1,0 +1,31 @@
+# monitoring：
+kubesphere/prometheus-config-reloader:v0.38.3
+kubesphere/prometheus-operator:v0.38.3
+prom/alertmanager:v0.21.0
+prom/prometheus:v2.20.1
+kubesphere/node-exporter:ks-v0.18.1
+jimmidyson/configmap-reload:v0.3.0
+kubesphere/notification-manager-operator:v0.1.0
+kubesphere/notification-manager:v0.1.0
+kubesphere/metrics-server:v0.3.7
+kubesphere/kube-rbac-proxy:v0.4.1
+kubesphere/kube-state-metrics:v1.9.6
+
+# logging:
+kubesphere/elasticsearch-oss:6.7.0-1
+kubesphere/fluentbit-operator:v0.2.0
+kubesphere/fluentbit-operator:migrator
+kubesphere/fluent-bit:v1.4.6    
+kubesphere/kube-auditing-operator:v0.1.0
+kubesphere/kube-auditing-webhook:v0.1.0
+kubesphere/kube-events-exporter:v0.1.0
+kubesphere/kube-events-operator:v0.1.0
+kubesphere/kube-events-ruler:v0.1.0
+kubesphere/log-sidecar-injector:1.1
+
+# notification&&alerting:
+kubesphere/notification:flyway_v2.1.2
+kubesphere/notification:v2.1.2   
+kubesphere/alert-adapter:v3.0.0
+kubesphere/alerting-dbinit:v3.0.0
+kubesphere/alerting:v2.1.2
