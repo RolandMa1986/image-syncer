@@ -1,31 +1,29 @@
 # monitoring：
-kubesphere/prometheus-config-reloader:v0.38.3
-kubesphere/prometheus-operator:v0.38.3
-prom/alertmanager:v0.21.0
-prom/prometheus:v2.20.1
-kubesphere/node-exporter:ks-v0.18.1
-jimmidyson/configmap-reload:v0.3.0
-kubesphere/notification-manager-operator:v0.1.0
-kubesphere/notification-manager:v0.1.0
-kubesphere/metrics-server:v0.3.7
-kubesphere/kube-rbac-proxy:v0.4.1
-kubesphere/kube-state-metrics:v1.9.6
+"kubesphere/prometheus-config-reloader": "registry.cn-beijing.aliyuncs.com/kubesphereio/prometheus-config-reloader"
+"kubesphere/prometheus-operator": "registry.cn-beijing.aliyuncs.com/kubesphereio/prometheus-operator"
+"kubesphere/alertmanager": "registry.cn-beijing.aliyuncs.com/kubesphereio/alertmanager"
+"kubesphere/prometheus": "registry.cn-beijing.aliyuncs.com/kubesphereio/prometheus"
+"kubesphere/node-exporter": "registry.cn-beijing.aliyuncs.com/kubesphereio/node-exporter"
+"kubesphere/configmap-reload": "registry.cn-beijing.aliyuncs.com/kubesphereio/configmap-reload"
+"kubesphere/notification-manager-operator": "registry.cn-beijing.aliyuncs.com/kubesphereio/notification-manager-operator"
+"kubesphere/notification-manager": "registry.cn-beijing.aliyuncs.com/kubesphereio/notification-manager"
+"kubesphere/metrics-server": "registry.cn-beijing.aliyuncs.com/kubesphereio/metrics-server"
+"kubesphere/kube-rbac-proxy": "registry.cn-beijing.aliyuncs.com/kubesphereio/kube-rbac-proxy"
+"kubesphere/kube-state-metrics": "registry.cn-beijing.aliyuncs.com/kubesphereio/kube-state-metrics"
 
 # logging:
-kubesphere/elasticsearch-oss:6.7.0-1
-kubesphere/fluentbit-operator:v0.2.0
-kubesphere/fluentbit-operator:migrator
-kubesphere/fluent-bit:v1.4.6    
-kubesphere/kube-auditing-operator:v0.1.0
-kubesphere/kube-auditing-webhook:v0.1.0
-kubesphere/kube-events-exporter:v0.1.0
-kubesphere/kube-events-operator:v0.1.0
-kubesphere/kube-events-ruler:v0.1.0
-kubesphere/log-sidecar-injector:1.1
+"kubesphere/elasticsearch-oss": "registry.cn-beijing.aliyuncs.com/kubesphereio/elasticsearch-oss"
+"kubesphere/fluentbit-operator": "registry.cn-beijing.aliyuncs.com/kubesphereio/fluentbit-operator"
+"kubesphere/fluent-bit": "registry.cn-beijing.aliyuncs.com/kubesphereio/fluent-bit"
+"kubesphere/kube-auditing-operator": "registry.cn-beijing.aliyuncs.com/kubesphereio/kube-auditing-operator"
+"kubesphere/kube-auditing-webhook": "registry.cn-beijing.aliyuncs.com/kubesphereio/kube-auditing-webhook"
+"kubesphere/kube-events-exporter": "registry.cn-beijing.aliyuncs.com/kubesphereio/kube-events-exporter"
+"kubesphere/kube-events-operator": "registry.cn-beijing.aliyuncs.com/kubesphereio/kube-events-operator"
+"kubesphere/kube-events-ruler": "registry.cn-beijing.aliyuncs.com/kubesphereio/kube-events-ruler"
+"kubesphere/log-sidecar-injector": "registry.cn-beijing.aliyuncs.com/kubesphereio/log-sidecar-injector"
 
 # notification&&alerting:
-kubesphere/notification:flyway_v2.1.2
-kubesphere/notification:v2.1.2   
-kubesphere/alert-adapter:v3.0.0
-kubesphere/alerting-dbinit:v3.0.0
-kubesphere/alerting:v2.1.2
+"kubesphere/notification": "registry.cn-beijing.aliyuncs.com/kubesphereio/notification"
+"kubesphere/alert-adapter": "registry.cn-beijing.aliyuncs.com/kubesphereio/alert-adapter"
+"kubesphere/alerting-dbinit": "registry.cn-beijing.aliyuncs.com/kubesphereio/alerting-dbinit"
+"kubesphere/alerting": "registry.cn-beijing.aliyuncs.com/kubesphereio/alerting"

@@ -1,17 +1,18 @@
 # service-mesh：
-istio/citadel:1.4.8
-istio/galley:1.4.8
-istio/kubectl:1.4.8
-istio/mixer:1.4.8
-istio/pilot:1.4.8
-istio/proxyv2:1.4.8
-istio/sidecar_injector:1.4.8
-jaegertracing/jaeger-agent:1.17
-jaegertracing/jaeger-collector:1.17
-jaegertracing/jaeger-operator:1.17.1
-jaegertracing/jaeger-query:1.17
-jaegertracing/jaeger-es-index-cleaner:1.17.1
+"istio/citadel": "registry.cn-beijing.aliyuncs.com/kubesphereio/citadel"
+"istio/galley": "registry.cn-beijing.aliyuncs.com/kubesphereio/galley"
+# issue 1 同名如何处理 
+# istio/kubectl": "registry.cn-beijing.aliyuncs.com/kubesphereio/kubectl"
+"istio/mixer": "registry.cn-beijing.aliyuncs.com/kubesphereio/mixer"
+"istio/pilot": "registry.cn-beijing.aliyuncs.com/kubesphereio/pilot"
+"istio/proxyv2": "registry.cn-beijing.aliyuncs.com/kubesphereio/proxyv2"
+"istio/sidecar_injector": "registry.cn-beijing.aliyuncs.com/kubesphereio/sidecar_injector"
+"jaegertracing/jaeger-agent": "registry.cn-beijing.aliyuncs.com/kubesphereio/jaeger-agent"
+"jaegertracing/jaeger-collector": "registry.cn-beijing.aliyuncs.com/kubesphereio/jaeger-collector"
+"jaegertracing/jaeger-operator": "registry.cn-beijing.aliyuncs.com/kubesphereio/jaeger-operator"
+"jaegertracing/jaeger-query": "registry.cn-beijing.aliyuncs.com/kubesphereio/jaeger-query"
+"jaegertracing/jaeger-es-index-cleaner": "registry.cn-beijing.aliyuncs.com/kubesphereio/jaeger-es-index-cleaner"
 
 # multicluster:
-kubesphere/kubefed:v0.3.0
-kubesphere/tower:v0.1.0
+"kubesphere/kubefed": "registry.cn-beijing.aliyuncs.com/kubesphereio/kubefed"
+"kubesphere/tower": "registry.cn-beijing.aliyuncs.com/kubesphereio/tower"
